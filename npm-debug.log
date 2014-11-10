@@ -1,0 +1,98 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'test.js' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'test.js', null ]
+6 verbose cache add name=undefined spec="test.js" args=["test.js",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'test.js',
+7 verbose parsed url   path: 'test.js',
+7 verbose parsed url   href: 'test.js' }
+8 silly lockFile 2d408aaa-test-js test.js
+9 verbose lock test.js /Users/NV/.npm/2d408aaa-test-js.lock
+10 verbose chmod /var/folders/p8/m6p1wg9j1z520b0pss0x39jc0000gn/T/npm-5743-QnuJDzSt/1415395854813-0.5614717844873667/tmp.tgz 644
+11 verbose tar unpack /var/folders/p8/m6p1wg9j1z520b0pss0x39jc0000gn/T/npm-5743-QnuJDzSt/1415395854813-0.5614717844873667/tmp.tgz
+12 silly lockFile e1b161a5--5614717844873667-tmp-tgz-unpack tar:///var/folders/p8/m6p1wg9j1z520b0pss0x39jc0000gn/T/npm-5743-QnuJDzSt/1415395854813-0.5614717844873667/tmp.tgz-unpack
+13 verbose lock tar:///var/folders/p8/m6p1wg9j1z520b0pss0x39jc0000gn/T/npm-5743-QnuJDzSt/1415395854813-0.5614717844873667/tmp.tgz-unpack /Users/NV/.npm/e1b161a5--5614717844873667-tmp-tgz-unpack.lock
+14 silly lockFile f9922d2b-54813-0-5614717844873667-tmp-tgz tar:///var/folders/p8/m6p1wg9j1z520b0pss0x39jc0000gn/T/npm-5743-QnuJDzSt/1415395854813-0.5614717844873667/tmp.tgz
+15 verbose lock tar:///var/folders/p8/m6p1wg9j1z520b0pss0x39jc0000gn/T/npm-5743-QnuJDzSt/1415395854813-0.5614717844873667/tmp.tgz /Users/NV/.npm/f9922d2b-54813-0-5614717844873667-tmp-tgz.lock
+16 silly gunzTarPerm modes [ '755', '644' ]
+17 error not a package /var/folders/p8/m6p1wg9j1z520b0pss0x39jc0000gn/T/npm-5743-QnuJDzSt/1415395854813-0.5614717844873667/tmp.tgz
+18 silly lockFile e1b161a5--5614717844873667-tmp-tgz-unpack tar:///var/folders/p8/m6p1wg9j1z520b0pss0x39jc0000gn/T/npm-5743-QnuJDzSt/1415395854813-0.5614717844873667/tmp.tgz-unpack
+19 silly lockFile e1b161a5--5614717844873667-tmp-tgz-unpack tar:///var/folders/p8/m6p1wg9j1z520b0pss0x39jc0000gn/T/npm-5743-QnuJDzSt/1415395854813-0.5614717844873667/tmp.tgz-unpack
+20 silly lockFile f9922d2b-54813-0-5614717844873667-tmp-tgz tar:///var/folders/p8/m6p1wg9j1z520b0pss0x39jc0000gn/T/npm-5743-QnuJDzSt/1415395854813-0.5614717844873667/tmp.tgz
+21 silly lockFile f9922d2b-54813-0-5614717844873667-tmp-tgz tar:///var/folders/p8/m6p1wg9j1z520b0pss0x39jc0000gn/T/npm-5743-QnuJDzSt/1415395854813-0.5614717844873667/tmp.tgz
+22 silly lockFile 2d408aaa-test-js test.js
+23 silly lockFile 2d408aaa-test-js test.js
+24 verbose addNamed [ 'test.js', '' ]
+25 verbose addNamed [ null, '*' ]
+26 silly lockFile edf9f4e1-test-js test.js@
+27 verbose lock test.js@ /Users/NV/.npm/edf9f4e1-test-js.lock
+28 silly addNameRange { name: 'test.js', range: '*', hasData: false }
+29 verbose request where is /test.js
+30 verbose request registry https://registry.npmjs.org/
+31 verbose request id 286da4f70d1cdde4
+32 verbose url raw /test.js
+33 verbose url resolving [ 'https://registry.npmjs.org/', './test.js' ]
+34 verbose url resolved https://registry.npmjs.org/test.js
+35 verbose request where is https://registry.npmjs.org/test.js
+36 info trying registry request attempt 1 at 13:30:54
+37 http GET https://registry.npmjs.org/test.js
+38 http 404 https://registry.npmjs.org/test.js
+39 verbose headers { date: 'Fri, 07 Nov 2014 21:30:55 GMT',
+39 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+39 verbose headers   'content-type': 'application/json',
+39 verbose headers   'cache-control': 'max-age=0',
+39 verbose headers   'content-length': '52',
+39 verbose headers   'accept-ranges': 'bytes',
+39 verbose headers   via: '1.1 varnish',
+39 verbose headers   age: '0',
+39 verbose headers   'x-served-by': 'cache-lax1421-LAX',
+39 verbose headers   'x-cache': 'MISS',
+39 verbose headers   'x-cache-hits': '0',
+39 verbose headers   'x-timer': 'S1415395855.092323,VS0,VE43',
+39 verbose headers   'keep-alive': 'timeout=10, max=50',
+39 verbose headers   connection: 'Keep-Alive' }
+40 silly registry.get cb [ 404,
+40 silly registry.get   { date: 'Fri, 07 Nov 2014 21:30:55 GMT',
+40 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+40 silly registry.get     'content-type': 'application/json',
+40 silly registry.get     'cache-control': 'max-age=0',
+40 silly registry.get     'content-length': '52',
+40 silly registry.get     'accept-ranges': 'bytes',
+40 silly registry.get     via: '1.1 varnish',
+40 silly registry.get     age: '0',
+40 silly registry.get     'x-served-by': 'cache-lax1421-LAX',
+40 silly registry.get     'x-cache': 'MISS',
+40 silly registry.get     'x-cache-hits': '0',
+40 silly registry.get     'x-timer': 'S1415395855.092323,VS0,VE43',
+40 silly registry.get     'keep-alive': 'timeout=10, max=50',
+40 silly registry.get     connection: 'Keep-Alive' } ]
+41 silly lockFile edf9f4e1-test-js test.js@
+42 silly lockFile edf9f4e1-test-js test.js@
+43 error 404 404 Not Found: test.js
+43 error 404
+43 error 404 'test.js' is not in the npm registry.
+43 error 404 You should bug the author to publish it
+43 error 404 It was specified as a dependency of 'repost'
+43 error 404
+43 error 404 Maybe try 'npm search test'
+43 error 404
+43 error 404 Note that you can also install from a
+43 error 404 tarball, folder, or http url, or git url.
+44 error System Darwin 14.0.0
+45 error command "node" "/usr/local/bin/npm" "install" "test.js"
+46 error cwd /Users/NV/dev/repost
+47 error node -v v0.10.32
+48 error npm -v 1.4.28
+49 error code E404
+50 verbose exit [ 1, true ]
